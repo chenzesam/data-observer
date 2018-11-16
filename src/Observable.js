@@ -1,6 +1,6 @@
 import Dep from './Dep'
 
-class Observer {
+class Observable {
   constructor(data) {
     this.target = null
     let self = this
@@ -54,4 +54,4 @@ class Observer {
   }
 }
 
-export default Observer
+export default Observable
