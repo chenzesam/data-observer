@@ -2,11 +2,11 @@ import Observer from '../src/index'
 
 let data = { name: 'sam', age: 18, BWH: [1, 2, 3] }
 let observer = new Observer(data)
-observer.event(function (data) {
+observer.observe(function (data) {
   let info = `${data.name} is ${data.age}`
   console.log(info)
 })
-observer.event(function (data) {
+observer.observe(function (data) {
   console.log('age ' + data.age)
   console.log('BWH ' + data.BWH)
 })

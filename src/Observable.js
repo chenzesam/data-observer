@@ -47,7 +47,7 @@ class Observable {
       }
     })
   }
-  event(func) {
+  observe(func) {
     this.target = func
     this.target(this.data)
     this.target = null

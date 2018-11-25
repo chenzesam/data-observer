@@ -1,6 +1,6 @@
 # 数据观察器
 
-## TODO
+## TODOS
 
 - [x] 将仓库以模块化形式呈现, 可给其他人用
 - [ ] 修改数据时, 可以合并响应
@@ -17,8 +17,8 @@ let data = { age: 18 }
 // new a data observer
 let observer = new Observable(data)
 
-// add reactive event, will pass changed data
-observer.event(function (data) {
+// add reactive observe, will pass changed data
+observer.observe(function (data) {
   console.log('my age is ' + data.age)
 })
 
