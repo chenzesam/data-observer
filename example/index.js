@@ -1,7 +1,7 @@
-import Observer from '../src/index'
+import Observable from '../src/index'
 
 let data = { name: 'sam', age: 18, BWH: [1, 2, 3] }
-let observer = new Observer(data)
+let observer = new Observable(data)
 observer.observe(function (data) {
   let info = `${data.name} is ${data.age}`
   console.log(info)
