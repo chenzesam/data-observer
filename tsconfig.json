@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "removeComments": false,
+    "declaration": true,
+    "sourceMap": true,
+
+    "strict": true,
+    "noImplicitAny": false,
+
+    "baseUrl": ".",
+    "outDir": "./lib",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "declarationDir": "./types"
+  },
+  "include": [
+    "src",
+  ]
+}

@@ -1,0 +1,13 @@
+__tests__
+configs
+coverage
+example
+node_modules
+src
+.eslintignore
+.eslintrc.js
+.gitignore
+jest.config.js
+package-lock.json
+tsconfig.*
+type.d.ts
